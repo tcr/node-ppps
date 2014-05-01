@@ -1,0 +1,19 @@
+{
+  "name": "ppps",
+  "version": "0.1.0",
+  "description": "Controls per-port-power switching on USB hubs.",
+  "main": "usb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ppps": "./usb.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nomnom": "~1.6.2",
+    "async": "~0.7.0",
+    "usb": "~0.3.11"
+  }
+}
