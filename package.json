@@ -1,15 +1,15 @@
 {
   "name": "ppps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Controls per-port-power switching on USB hubs.",
-  "main": "usb.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ppps": "./usb.js"
+    "ppps": "./cli.js"
   },
-  "author": "",
+  "author": "Tim Cameron Ryan <tim@technical.io>",
   "license": "MIT",
   "dependencies": {
     "nomnom": "~1.6.2",
