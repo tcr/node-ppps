@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Controls per-port-power switching on USB hubs.",
   "main": "index.js",
+  "repository": "https://github.com/tcr/node-ppps",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
